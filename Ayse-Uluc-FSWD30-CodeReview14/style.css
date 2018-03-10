@@ -1,0 +1,111 @@
+/****************************************************
+  * Custom CSS for this website 
+  *****************************************************/
+
+body{
+  background-color: grey;
+}
+.custom-navbar {
+  background-color: rgba(0,0,0,0.5);
+  /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
+  height: 50px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+
+.custom-navbar.opaque {
+  background-color: black;
+  height: 50px;
+  transition: background-color .5s ease 0s;
+}
+
+
+.btn{
+	margin: 5px;
+}
+.buttons{
+	float: right;
+	padding: 10px;
+	/* position: absolute;
+	top: 4%;
+	right: 1%; */
+}
+
+.images{
+	width: 80%;
+}
+
+
+
+
+/* TABLE___________________________________ */
+table{
+  box-shadow: 0px 5px 10px gray;
+}
+
+}
+th{
+  background-color: lightcyan;
+}
+td{
+  background-color: #F0F0F0;
+}
+img{
+  width: 60%;
+  box-shadow: 0px 5px 10px gray;
+}
+@media (max-device-width: 800px) {
+  img{
+    width: 200%;
+  }
+}
+
+
+        fieldset {
+            margin: auto;
+            margin-top: 100px;
+            width: 50%;
+        }
+
+
+.contuct_form_div{
+  margin-top: 5%;
+ box-shadow: 0px 5px 10px;
+ background-color: #F0F0F0;
+}
+
+.form-horizontal{
+  margin-top: 8%;
+}
+
+
+
+.banner {
+  background: url("https://images.unsplash.com/13/unsplash_523b1f5aafc42_1.JPG?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=83647c1d5f92a7e37eff1327be000c5b&auto=format&fit=crop&w=754&q=80") no-repeat;
+    /*background-attachment: fixed;*/
+  min-height: 600px;
+  position: relative;
+  overflow: hidden;
+  /****************************************************
+  * set the backround image to 100% width of the screen 
+  *****************************************************/
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
+
+.banner h1,
+.banner p {
+  color: white;
+}
+
+.banner .row {
+  margin-top: 200px;
+}
+
+.btn{
+  margin: 5px;
+}
